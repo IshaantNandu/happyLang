@@ -1,0 +1,15 @@
+speak "Enter the number of terms (n > 1):"
+listen n int
+
+a=0
+b=1
+speak a
+speak b
+
+repeat n times
+    c=a+b
+    speak c
+    a=b
+    b=c
+end
+
